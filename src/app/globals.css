@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+--font-climate: 'Climate Crisis', sans-serif;
+--font-baloo: "Baloo Bhaijaan 2", cursive;
 }
 
 @theme inline {
@@ -10,6 +15,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-climate: var(--font-climate);
+  --font-baloo: var(--font-baloo);
 }
 
 @media (prefers-color-scheme: dark) {
