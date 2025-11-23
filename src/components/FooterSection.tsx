@@ -42,10 +42,11 @@ export default function FooterSection() {
           <div className="mt-10 md:mt-16">
             <h3 className="text-[#F4D04E] text-3xl">About US</h3>
 
-            <p className="mt-6 text-white/80 text-sm md:text-lg leading-relaxed max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
+            <p className="mt-6 text-white/80 text-sm md:text-md leading-relaxed max-w-xl">
+              AI is taking the boring jobs. That leaves the magic for us. But
+              artists are lonely. Writers need singers. Dancers need editors.
+              The Mission: Unite India's creators, flood the internet with Human
+              Art, and force the big brands to give us a Stage on Dec 31st.
             </p>
           </div>
         </div>
@@ -61,7 +62,6 @@ export default function FooterSection() {
             <li className="cursor-pointer hover:text-[#F4D04E]">Concert</li>
             <li className="cursor-pointer hover:text-[#F4D04E]">FAQS</li>
           </ul>
-
         </div>
 
         <div className="md:mt-14 flex flex-col justify-start items-start md:items-center gap-10 md:gap-20">
@@ -78,7 +78,7 @@ export default function FooterSection() {
             "
           >
             <Globe className="w-6 h-6" />
-            Join the community
+            Join Whatsapp Channel
           </button>
         </div>
       </div>

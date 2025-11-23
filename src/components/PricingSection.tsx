@@ -24,11 +24,11 @@ export default function CreativeRevolutionSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="relative w-full max-w-sm mx-auto bg-black text-center rounded-3xl border border-white p-6 md:px-2 md:py-10 shadow-lg">
               {/* DATE BADGE — TOP LEFT */}
               <div className="absolute top-4 font-baloo font-bold left-4 px-5 py-2 border-2 border-white rounded-xl text-white text-sm tracking-wide bg-black">
-                NOV 11 - 17
+                DEC 1 - 7
               </div>
 
               {/* ICON */}
@@ -38,12 +38,13 @@ export default function CreativeRevolutionSection() {
 
               {/* TITLE */}
               <h3 className="mt-10 font-baloo text-2xl font-extrabold text-white">
-                The Revolution Begins
+                THE AWAKENING
               </h3>
 
               {/* SUBTEXT */}
               <p className="mt-4 text-[#D2D2D2] font-baloo text-base">
-                Upload with your hashtags
+                Rally the creators and build the army with us. Choose your
+                identity, join the HQ, and ready your masterpiece.
               </p>
 
               {/* BUTTON */}
@@ -57,7 +58,7 @@ export default function CreativeRevolutionSection() {
             <div className="relative w-full max-w-sm mx-auto bg-black text-center rounded-3xl border border-white p-6 md:px-2 md:py-10 shadow-lg">
               {/* DATE BADGE — TOP LEFT */}
               <div className="absolute top-4 font-baloo font-bold left-4 px-5 py-2 border-2 border-white rounded-xl text-white text-sm tracking-wide bg-black">
-                NOV 11 - 17
+                DEC 8 - 14
               </div>
 
               {/* ICON */}
@@ -67,12 +68,13 @@ export default function CreativeRevolutionSection() {
 
               {/* TITLE */}
               <h3 className="mt-10 font-baloo text-2xl font-extrabold text-white">
-                The Revolution Begins
+                THE NOISE FLOOD
               </h3>
 
               {/* SUBTEXT */}
               <p className="mt-4 text-[#D2D2D2] font-baloo text-base">
-                Upload with your hashtags
+                Unleash your best work and flood the internet with pure art. Use
+                your hashtags, rep your city, and make the algorithm surrender.
               </p>
 
               {/* BUTTON */}
@@ -86,7 +88,7 @@ export default function CreativeRevolutionSection() {
             <div className="relative w-full max-w-sm mx-auto bg-black text-center rounded-3xl border border-white p-6 md:px-2 md:py-10 shadow-lg">
               {/* DATE BADGE — TOP LEFT */}
               <div className="absolute top-4 font-baloo font-bold left-4 px-5 py-2 border-2 border-white rounded-xl text-white text-sm tracking-wide bg-black">
-                NOV 11 - 17
+                DEC 15
               </div>
 
               {/* ICON */}
@@ -96,12 +98,13 @@ export default function CreativeRevolutionSection() {
 
               {/* TITLE */}
               <h3 className="mt-10 font-baloo text-2xl font-extrabold text-white">
-                The Revolution Begins
+                JUDGEMENT DAY
               </h3>
 
               {/* SUBTEXT */}
               <p className="mt-4 text-[#D2D2D2] font-baloo text-base">
-                Upload with your hashtags
+                All uploads and engagement get counted today. Either we unlock
+                the 4 stages in 4 cities or the dream goes dark.
               </p>
 
               {/* BUTTON */}
@@ -112,7 +115,7 @@ export default function CreativeRevolutionSection() {
               </div>
             </div>
 
-            <div className="relative w-full max-w-sm mx-auto bg-black text-center rounded-3xl border border-white p-6 md:px-2 md:py-10 shadow-lg">
+            {/* <div className="relative w-full max-w-sm mx-auto bg-black text-center rounded-3xl border border-white p-6 md:px-2 md:py-10 shadow-lg">
               <div className="absolute top-4 font-baloo font-bold left-4 px-5 py-2 border-2 border-white rounded-xl text-white text-sm tracking-wide bg-black">
                 NOV 11 - 17
               </div>
@@ -134,7 +137,7 @@ export default function CreativeRevolutionSection() {
                   Learn More <span className="text-2xl">→</span>
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

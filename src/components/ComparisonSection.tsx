@@ -89,7 +89,7 @@ export default function ComparisonSection() {
               alt="globe--v1"
             />
           </span>
-          Join the Community
+          Join Whatsapp Channel
         </button>
       </div>
     </section>

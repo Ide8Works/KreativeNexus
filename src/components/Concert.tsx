@@ -6,6 +6,10 @@ export default function Concert() {
       className="relative w-full min-h-screen bg-cover bg-center flex flex-col items-center justify-start md:justify-center text-white px-6"
       style={{ backgroundImage: "url('/golden-bg.png')" }}
     >
+
+ <p className="text-center font-baloo font-semibold text-md md:text-2xl mt-3 text-white">
+# If we have the numbers, we announce the Concert Venues. If we are silent, the revolution ends here.      </p>
+
       <div className="mt-40 md:mt-10 px-6 py-2 border border-white font-bold font-baloo text-xl rounded-full backdrop-blur-sm">
         December 31, 2025
       </div>

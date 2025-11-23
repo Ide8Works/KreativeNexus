@@ -11,7 +11,7 @@ export default function ContactSection() {
       <div className="relative z-10 text-center max-w-6xl mx-auto">
 
         <h1 className="text-3xl md:text-6xl font-extrabold leading-tight font-baloo">
-          Stop scrolling memes.
+          Stop scrolling Ideas.
         </h1>
         <h2 className="text-3xl md:text-5xl font-extrabold mt-2 text-yellow-400 font-baloo">
           Start creating them.
@@ -24,8 +24,8 @@ export default function ContactSection() {
 
         <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-6">
           <button className="flex items-center gap-3 bg-[#FFD000] cursor-pointer font-baloo font-bold text-black px-8 py-2 rounded-2xl text-lg shadow-lg">
-            <img src="/globe.svg" className="h-5 w-5" alt="" /> Join the
-            Community
+            <img src="/globe.svg" className="h-5 w-5" alt="" />           Join Whatsapp Channel
+
           </button>
           <button className="flex items-center gap-3 bg-[#FFD000] cursor-pointer font-baloo font-bold text-black px-8 py-2 rounded-2xl text-lg shadow-lg">
             📸 Follow on Instagram
