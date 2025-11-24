@@ -46,7 +46,7 @@ export default function ContactSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight -mb-4"
+          className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight sm:-mb-4"
         >
           Stop scrolling Ideas.
         </motion.h1>
@@ -87,24 +87,23 @@ export default function ContactSection() {
               key={i}
               whileHover={{ y: -4 }}
               whileTap={{ scale: 0.97 }}
-              className="relative w-fit bg-linear-to-r from-yellow-400 to-yellow-500 text-black text-lg font-bold px-6 py-3 rounded-full flex items-center justify-center gap-2.5 overflow-hidden shadow-lg hover:shadow-yellow-400/40 transition-all duration-300 group cursor-pointer"
+              className="relative w-fit bg-linear-to-r from-yellow-400 to-yellow-500 text-black text-lg font-bold px-6 py-3 rounded-full overflow-hidden shadow-lg hover:shadow-yellow-400/40 transition-all duration-300 group cursor-pointer"
             >
               {/* Shine overlay */}
               <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-linear-to-r from-transparent via-white/30 to-transparent" />
-
               {/* Hover background shift */}
               <div className="absolute inset-0 bg-linear-to-r from-yellow-300 to-yellow-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-              {/* Content */}
-              <span className="relative z-10 flex items-center gap-1.5">
+              {/* CENTERED CONTENT */}
+              <div className="relative z-10 flex items-center justify-center gap-2">
                 {btn.icon && (
                   <Image src={btn.icon} alt="" width={20} height={20} />
                 )}
-                {btn.text}
-              </span>
-              <span className="relative z-10 text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                →
-              </span>
+                <span>{btn.text}</span>
+                <span className="text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  →
+                </span>
+              </div>
             </motion.button>
           ))}
         </motion.div>
@@ -120,19 +119,20 @@ export default function ContactSection() {
           <motion.button
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.97 }}
-            className="relative w-fit bg-linear-to-r from-yellow-400 to-orange-400 text-black text-lg font-bold px-8 py-3 rounded-full flex items-center justify-center gap-3 overflow-hidden shadow-lg hover:shadow-orange-400/40 transition-all duration-300 group cursor-pointer"
+            className="relative w-fit bg-linear-to-r from-yellow-400 to-orange-400 text-black text-lg font-bold px-8 py-3 rounded-full overflow-hidden shadow-lg hover:shadow-orange-400/40 transition-all duration-300 group cursor-pointer"
           >
             {/* Shine */}
             <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-linear-to-r from-transparent via-white/25 to-transparent" />
             {/* Hover bg */}
             <div className="absolute inset-0 bg-linear-to-r from-yellow-300 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            {/* Text */}
-            <span className="relative z-10">
-              ⬆️ Upload your work with #Kreative
-            </span>
-            <span className="relative z-10 text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              →
-            </span>
+
+            {/* CENTERED CONTENT */}
+            <div className="relative z-10 flex items-center justify-center gap-2">
+              <span>⬆️ Upload your work with #Kreative</span>
+              <span className="text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                →
+              </span>
+            </div>
           </motion.button>
         </motion.div>
 

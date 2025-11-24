@@ -90,7 +90,7 @@ export default function Concert() {
 
       {/* Date Badge with Glow */}
       <div
-        className="relative mt-40 md:mt-10 group cursor-default transform transition-all duration-700"
+        className="relative mt-10 group cursor-default transform transition-all duration-700"
         style={{
           opacity: isVisible ? 1 : 0,
           transform: isVisible

@@ -137,7 +137,7 @@ export default function CreativeRevolutionSection() {
           </div>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:px-20">
             {phases.map((phase, index) => (
               <div
                 key={phase.id}
