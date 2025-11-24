@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function StepsSection() {
   return (
-    <section className="w-full bg-black text-white py-10 md:py-20 px-6 md:px-0 max-w-6xl mx-auto">
+    <section className="w-full bg-black text-white py-10 md:py-20 px-6 md:px-0 max-w-6xl mx-auto font-brand">
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-5xl font-extrabold font-baloo">
+        <h2 className="text-3xl md:text-5xl font-extrabold">
           3 Steps to Go From <span className="text-yellow-400">Meme</span> to
           Masterpiece
         </h2>
-        <p className="text-[#D2D2D2] mt-3 font-baloo font-bold text-lg md:text-xl">
+        <p className="text-[#D2D2D2] mt-3 font-bold text-lg md:text-xl">
           Your creative journey starts here
         </p>
       </div>
@@ -27,15 +27,15 @@ export default function StepsSection() {
           </div>
 
           <div className="flex flex-col items-center justify-center h-full">
-            <h3 className="text-5xl font-extrabold tracking-tight font-baloo">
+            <h3 className="text-5xl font-extrabold tracking-tight">
               01
             </h3>
 
-            <p className="text-2xl mt-4 font-baloo font-bold">
+            <p className="text-2xl mt-4 font-bold">
               Drop In (Like a Meme)
             </p>
 
-            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm font-baloo">
+            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm">
               Join our WhatsApp community — no gatekeeping, just good vibes.
             </p>
           </div>
@@ -53,15 +53,15 @@ export default function StepsSection() {
           </div>
 
           <div className="flex flex-col items-center justify-center h-full">
-            <h3 className="text-5xl font-extrabold tracking-tight font-baloo">
+            <h3 className="text-5xl font-extrabold tracking-tight">
               02
             </h3>
 
-            <p className="text-2xl mt-4 font-baloo font-bold">
+            <p className="text-2xl mt-4 font-bold">
               Find Your Missing Piece
             </p>
 
-            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm font-baloo">
+            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm">
               Match with others in your genre — singers, dancers, editors, all
               under one roof.
             </p>
@@ -79,15 +79,15 @@ export default function StepsSection() {
           </div>
 
           <div className="flex flex-col items-center justify-center h-full">
-            <h3 className="text-5xl font-extrabold tracking-tight font-baloo">
+            <h3 className="text-5xl font-extrabold tracking-tight">
               03
             </h3>
 
-            <p className="text-2xl mt-4 font-baloo font-bold">
+            <p className="text-2xl mt-4 font-bold">
               Make Stuff Together
             </p>
 
-            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm font-baloo">
+            <p className="text-[#D2D2D2] font-bold mt-3 leading-relaxed max-w-[300px] text-sm">
               Upload your work, build teams, and create magic for the world to
               see
             </p>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FeaturesSection() {
   return (
-    <section className="relative w-full text-white py-10 md:py-20 px-6 overflow-hidden z-0 font-baloo font-bold">
+    <section className="relative w-full text-white py-10 md:py-20 px-6 overflow-hidden z-0 font-brand font-bold">
       <div className="relative max-w-7xl mx-auto text-center mb-20">
         <h2 className="text-4xl md:text-5xl mb-2">
           Struggle is Real (and Relatable)

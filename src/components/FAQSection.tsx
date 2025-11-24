@@ -27,7 +27,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="w-full bg-black text-white py-10 md:py-20 px-6 font-baloo font-bold">
+    <section className="w-full bg-black text-white py-10 md:py-20 px-6 font-bold font-brand">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-5xl font-extrabold mb-2">
           Questions?{" "}
@@ -36,7 +36,7 @@ export default function FAQSection() {
             We Got Answers.
           </span>
         </h2>
-        <p className="text-[#D2D2D2] text-xl font-baloo font-bold">
+        <p className="text-[#D2D2D2] text-xl font-bold">
           (And they're actually helpful)
         </p>
       </div>
@@ -54,7 +54,7 @@ export default function FAQSection() {
               </span>
             </summary>
 
-            <p className="px-6 pb-6 pt-1 text-[#D2D2D2] text-sm md:text-base font-normal font-baloo">
+            <p className="px-6 pb-6 pt-1 text-[#D2D2D2] text-sm md:text-base font-normal">
               {f.a}
             </p>
           </details>
