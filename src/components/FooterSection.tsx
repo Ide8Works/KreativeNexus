@@ -15,7 +15,7 @@ export default function FooterSection() {
       className="
       w-full bg-[#1E1E1E] text-white rounded-t-[60px]
       px-6 py-10 md:px-16 md:py-16
-      font-baloo font-bold
+      font-brand font-bold
     "
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-20">
